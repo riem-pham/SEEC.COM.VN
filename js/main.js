@@ -112,9 +112,9 @@ $(document).ready(function () {
 $(function () {
     var message = {
         message: [
-			'Front End Developer!'
-			, 'Web Developer'
-      , 'javascript, css, sass,...;',
+			'là SEEC Việt Nam'
+			
+      , 'Phát triển để Thành Công;',
 
 		]
         , counterS: 0
@@ -134,7 +134,7 @@ $(function () {
             message = !this.deleteS ? message.slice(0, ++this.counterL) : message.slice(0, --this.counterL);
             if (this.message[this.counterS] != message && !this.deleteS) {
                 this.$text.text(message);
-                speed = 90;
+                speed = 150;
             }
             else {
                 this.deleteS = true;
